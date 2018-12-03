@@ -1,0 +1,28 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist --presets es2015",
+    "watch": "babel src -d dist --presets es2015 -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "sqlite3": "^4.0.4"
+  },
+  "dependencies": {
+    "csv": "^0.3.7",
+    "fast-csv": "^2.4.1",
+    "ps": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Andrey_Prikazch"
+  },
+  "description": ""
+}
